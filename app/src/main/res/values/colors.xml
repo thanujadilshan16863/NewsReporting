@@ -5,4 +5,20 @@
     <color name="black">#000000</color>
     <color name="gray">#808080</color>
 
+    <!-- Primary and Accent Colors -->
+    <color name="primaryColor">#bbe7fe</color> <!-- Light Blue-Purple Gradient Start -->
+    <color name="accentColor">#FC5C7D</color> <!-- Pink Gradient End -->
+    <color name="buttonColor">#0AA8F6</color> <!-- Logout Button Color -->
+    <color name="menuItemBackground">#3A3D4E</color> <!-- Dark Background for Menu Items -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FFFFFF</color> <!-- White for Titles and Username -->
+    <color name="textSecondary">#CCCCCC</color> <!-- Light Gray for Menu Items -->
+    <color name="iconTint">#FFFFFF</color> <!-- White Icons -->
+
+    <!-- Background and Shadows -->
+    <color name="background">#F4F5F7</color> <!-- Light Background (Optional) -->
+    <color name="shadowColor">#80000000</color> <!-- Semi-transparent Black for Shadows -->
+
+
 </resources>

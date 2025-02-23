@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:alpha="0.99"
+    tools:context=".MainActivity">
+
+    <!-- Header Background -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header_card"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="0dp"
+
+        app:cardBackgroundColor="@color/primaryColor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Menu Icon -->
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_menu"
+        app:tint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:letterSpacing="0.05"
+        android:shadowColor="#66000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="හෙළ News Dashboard"
+        android:textColor="@color/accentColor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="294dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_card">
+
+        <!-- Add New Report Button -->
+        <Button
+            android:id="@+id/btn_add_report"
+            style="@style/CustomButton"
+            android:layout_width="290dp"
+            android:layout_height="59dp"
+            android:text="Add New REPORTS"
+            app:iconGravity="textStart"
+            app:iconPadding="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="410dp"  />
+
+        <!-- Pending Reports Button -->
+
+        <!-- Approved Reports Button -->
+
+        <!-- View Reports Button -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_view_reports"
+        style="@style/CustomButton"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:text="View REPORTS"
+        app:iconGravity="textStart"
+        app:iconPadding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/btn_approved_reports"
+        style="@style/CustomButton"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:text="PENDING REPORTS"
+        app:iconGravity="textStart"
+        app:iconPadding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/btn_pending_reports"
+        style="@style/CustomButton"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:text="Approved REPORTS"
+        app:iconGravity="textStart"
+        app:iconPadding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
