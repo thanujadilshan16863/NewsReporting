@@ -20,3 +20,4 @@ interface ApiService {
     @POST("signup")
     fun signup(@Body request: SignupRequest): Call<SignupResponse>
 }
+git remote add origin https://github.com/thanujadilshan16863/HelaNewsReporting.git
