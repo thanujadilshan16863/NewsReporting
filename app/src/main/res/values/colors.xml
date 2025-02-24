@@ -19,6 +19,12 @@
     <!-- Background and Shadows -->
     <color name="background">#F4F5F7</color> <!-- Light Background (Optional) -->
     <color name="shadowColor">#80000000</color> <!-- Semi-transparent Black for Shadows -->
+    <!-- Error and Success -->
+    <color name="errorColor">#B00020</color>      <!-- Red for Errors -->
+    <color name="successColor">#4CAF50</color>    <!-- Green for Success -->
 
+    <!-- Hints and Borders -->
+    <color name="hintColor">#9E9E9E</color>       <!-- Light Gray Hint Text -->
+    <color name="borderColor">#E0E0E0</color>     <!-- Light Border Color -->
 
 </resources>

@@ -27,5 +27,6 @@
         <activity android:name=".ViewReportActivity"/>
 
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
